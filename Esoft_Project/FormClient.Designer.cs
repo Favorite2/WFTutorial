@@ -186,7 +186,7 @@
             // 
             this.buttonAdd.Location = new System.Drawing.Point(339, 373);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(75, 24);
             this.buttonAdd.TabIndex = 11;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@
             // 
             this.buttonEdit.Location = new System.Drawing.Point(420, 373);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(75, 24);
             this.buttonEdit.TabIndex = 12;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -206,7 +206,7 @@
             // 
             this.buttonDel.Location = new System.Drawing.Point(501, 373);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(75, 24);
             this.buttonDel.TabIndex = 13;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;

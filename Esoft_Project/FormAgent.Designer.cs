@@ -51,28 +51,28 @@
             // 
             // textBoxFirstName
             // 
-            this.textBoxFirstName.Location = new System.Drawing.Point(25, 130);
+            this.textBoxFirstName.Location = new System.Drawing.Point(37, 28);
             this.textBoxFirstName.Name = "textBoxFirstName";
             this.textBoxFirstName.Size = new System.Drawing.Size(100, 20);
             this.textBoxFirstName.TabIndex = 0;
             // 
             // textBoxMiddleName
             // 
-            this.textBoxMiddleName.Location = new System.Drawing.Point(25, 169);
+            this.textBoxMiddleName.Location = new System.Drawing.Point(37, 67);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
             this.textBoxMiddleName.Size = new System.Drawing.Size(100, 20);
             this.textBoxMiddleName.TabIndex = 1;
             // 
             // textBoxLastName
             // 
-            this.textBoxLastName.Location = new System.Drawing.Point(25, 208);
+            this.textBoxLastName.Location = new System.Drawing.Point(37, 106);
             this.textBoxLastName.Name = "textBoxLastName";
             this.textBoxLastName.Size = new System.Drawing.Size(100, 20);
             this.textBoxLastName.TabIndex = 2;
             // 
             // textBoxDealShare
             // 
-            this.textBoxDealShare.Location = new System.Drawing.Point(25, 247);
+            this.textBoxDealShare.Location = new System.Drawing.Point(37, 145);
             this.textBoxDealShare.Name = "textBoxDealShare";
             this.textBoxDealShare.Size = new System.Drawing.Size(100, 20);
             this.textBoxDealShare.TabIndex = 3;
@@ -80,7 +80,7 @@
             // labelFirstName
             // 
             this.labelFirstName.AutoSize = true;
-            this.labelFirstName.Location = new System.Drawing.Point(22, 114);
+            this.labelFirstName.Location = new System.Drawing.Point(34, 12);
             this.labelFirstName.Name = "labelFirstName";
             this.labelFirstName.Size = new System.Drawing.Size(29, 13);
             this.labelFirstName.TabIndex = 4;
@@ -89,7 +89,7 @@
             // labelMiddleName
             // 
             this.labelMiddleName.AutoSize = true;
-            this.labelMiddleName.Location = new System.Drawing.Point(22, 153);
+            this.labelMiddleName.Location = new System.Drawing.Point(34, 51);
             this.labelMiddleName.Name = "labelMiddleName";
             this.labelMiddleName.Size = new System.Drawing.Size(54, 13);
             this.labelMiddleName.TabIndex = 5;
@@ -98,7 +98,7 @@
             // labelLastName
             // 
             this.labelLastName.AutoSize = true;
-            this.labelLastName.Location = new System.Drawing.Point(22, 192);
+            this.labelLastName.Location = new System.Drawing.Point(34, 90);
             this.labelLastName.Name = "labelLastName";
             this.labelLastName.Size = new System.Drawing.Size(56, 13);
             this.labelLastName.TabIndex = 6;
@@ -107,7 +107,7 @@
             // labelDealShare
             // 
             this.labelDealShare.AutoSize = true;
-            this.labelDealShare.Location = new System.Drawing.Point(22, 231);
+            this.labelDealShare.Location = new System.Drawing.Point(34, 129);
             this.labelDealShare.Name = "labelDealShare";
             this.labelDealShare.Size = new System.Drawing.Size(101, 13);
             this.labelDealShare.TabIndex = 7;
@@ -124,7 +124,7 @@
             this.listViewAgent.FullRowSelect = true;
             this.listViewAgent.GridLines = true;
             this.listViewAgent.HideSelection = false;
-            this.listViewAgent.Location = new System.Drawing.Point(148, 114);
+            this.listViewAgent.Location = new System.Drawing.Point(147, 12);
             this.listViewAgent.MultiSelect = false;
             this.listViewAgent.Name = "listViewAgent";
             this.listViewAgent.Size = new System.Drawing.Size(525, 202);
@@ -159,9 +159,9 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(435, 322);
+            this.buttonAdd.Location = new System.Drawing.Point(430, 221);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(75, 24);
             this.buttonAdd.TabIndex = 9;
             this.buttonAdd.Text = "Создать";
             this.buttonAdd.UseVisualStyleBackColor = true;
@@ -169,9 +169,9 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(516, 322);
+            this.buttonEdit.Location = new System.Drawing.Point(513, 221);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(75, 24);
             this.buttonEdit.TabIndex = 10;
             this.buttonEdit.Text = "Изменить";
             this.buttonEdit.UseVisualStyleBackColor = true;
@@ -179,9 +179,9 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(597, 322);
+            this.buttonDel.Location = new System.Drawing.Point(597, 221);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(75, 24);
             this.buttonDel.TabIndex = 11;
             this.buttonDel.Text = "Удалить";
             this.buttonDel.UseVisualStyleBackColor = true;
@@ -190,7 +190,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Esoft_Project.Properties.Resources.thumbnail;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 366);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 221);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(173, 83);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -201,7 +201,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(684, 461);
+            this.ClientSize = new System.Drawing.Size(684, 313);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);

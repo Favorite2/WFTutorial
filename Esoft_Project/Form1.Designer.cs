@@ -50,7 +50,7 @@
             // 
             // buttonOpenClients
             // 
-            this.buttonOpenClients.Location = new System.Drawing.Point(12, 103);
+            this.buttonOpenClients.Location = new System.Drawing.Point(12, 107);
             this.buttonOpenClients.Name = "buttonOpenClients";
             this.buttonOpenClients.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenClients.TabIndex = 1;
@@ -60,7 +60,7 @@
             // 
             // buttonOpenAgents
             // 
-            this.buttonOpenAgents.Location = new System.Drawing.Point(12, 157);
+            this.buttonOpenAgents.Location = new System.Drawing.Point(12, 163);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
             this.buttonOpenAgents.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenAgents.TabIndex = 2;
@@ -70,16 +70,17 @@
             // 
             // buttonOpenRealEstates
             // 
-            this.buttonOpenRealEstates.Location = new System.Drawing.Point(12, 211);
+            this.buttonOpenRealEstates.Location = new System.Drawing.Point(12, 219);
             this.buttonOpenRealEstates.Name = "buttonOpenRealEstates";
             this.buttonOpenRealEstates.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenRealEstates.TabIndex = 3;
             this.buttonOpenRealEstates.Text = "Объекты недвижимости";
             this.buttonOpenRealEstates.UseVisualStyleBackColor = true;
+            this.buttonOpenRealEstates.Click += new System.EventHandler(this.buttonOpenRealEstates_Click);
             // 
             // buttonOpenDemands
             // 
-            this.buttonOpenDemands.Location = new System.Drawing.Point(12, 265);
+            this.buttonOpenDemands.Location = new System.Drawing.Point(12, 275);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
             this.buttonOpenDemands.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenDemands.TabIndex = 4;
@@ -88,7 +89,7 @@
             // 
             // buttonOpenSupplies
             // 
-            this.buttonOpenSupplies.Location = new System.Drawing.Point(12, 319);
+            this.buttonOpenSupplies.Location = new System.Drawing.Point(12, 331);
             this.buttonOpenSupplies.Name = "buttonOpenSupplies";
             this.buttonOpenSupplies.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenSupplies.TabIndex = 5;
@@ -97,7 +98,7 @@
             // 
             // buttonOpenDeals
             // 
-            this.buttonOpenDeals.Location = new System.Drawing.Point(12, 373);
+            this.buttonOpenDeals.Location = new System.Drawing.Point(12, 387);
             this.buttonOpenDeals.Name = "buttonOpenDeals";
             this.buttonOpenDeals.Size = new System.Drawing.Size(255, 48);
             this.buttonOpenDeals.TabIndex = 6;
@@ -108,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 430);
+            this.ClientSize = new System.Drawing.Size(279, 445);
             this.Controls.Add(this.buttonOpenDeals);
             this.Controls.Add(this.buttonOpenSupplies);
             this.Controls.Add(this.buttonOpenDemands);
