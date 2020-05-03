@@ -53,28 +53,28 @@
             // 
             this.textBoxFirstName.Location = new System.Drawing.Point(37, 28);
             this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxFirstName.Size = new System.Drawing.Size(100, 21);
             this.textBoxFirstName.TabIndex = 0;
             // 
             // textBoxMiddleName
             // 
             this.textBoxMiddleName.Location = new System.Drawing.Point(37, 67);
             this.textBoxMiddleName.Name = "textBoxMiddleName";
-            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxMiddleName.Size = new System.Drawing.Size(100, 21);
             this.textBoxMiddleName.TabIndex = 1;
             // 
             // textBoxLastName
             // 
             this.textBoxLastName.Location = new System.Drawing.Point(37, 106);
             this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(100, 20);
+            this.textBoxLastName.Size = new System.Drawing.Size(100, 21);
             this.textBoxLastName.TabIndex = 2;
             // 
             // textBoxDealShare
             // 
             this.textBoxDealShare.Location = new System.Drawing.Point(37, 145);
             this.textBoxDealShare.Name = "textBoxDealShare";
-            this.textBoxDealShare.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDealShare.Size = new System.Drawing.Size(100, 21);
             this.textBoxDealShare.TabIndex = 3;
             // 
             // labelFirstName
@@ -100,7 +100,7 @@
             this.labelLastName.AutoSize = true;
             this.labelLastName.Location = new System.Drawing.Point(34, 90);
             this.labelLastName.Name = "labelLastName";
-            this.labelLastName.Size = new System.Drawing.Size(56, 13);
+            this.labelLastName.Size = new System.Drawing.Size(53, 13);
             this.labelLastName.TabIndex = 6;
             this.labelLastName.Text = "Фамилия";
             // 
@@ -109,7 +109,7 @@
             this.labelDealShare.AutoSize = true;
             this.labelDealShare.Location = new System.Drawing.Point(34, 129);
             this.labelDealShare.Name = "labelDealShare";
-            this.labelDealShare.Size = new System.Drawing.Size(101, 13);
+            this.labelDealShare.Size = new System.Drawing.Size(100, 13);
             this.labelDealShare.TabIndex = 7;
             this.labelDealShare.Text = "Доля от комиссии";
             // 
@@ -215,6 +215,7 @@
             this.Controls.Add(this.textBoxLastName);
             this.Controls.Add(this.textBoxMiddleName);
             this.Controls.Add(this.textBoxFirstName);
+            this.Font = new System.Drawing.Font("Roboto Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormAgent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Агенты";
