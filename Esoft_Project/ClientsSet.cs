@@ -17,6 +17,7 @@ namespace Esoft_Project
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ClientsSet()
         {
+            this.DemandSet = new HashSet<DemandSet>();
             this.SupplySet = new HashSet<SupplySet>();
         }
     
@@ -27,6 +28,8 @@ namespace Esoft_Project
         public string Phone { get; set; }
         public string Email { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<DemandSet> DemandSet { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SupplySet> SupplySet { get; set; }
     }

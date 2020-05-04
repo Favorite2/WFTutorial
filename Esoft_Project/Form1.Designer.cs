@@ -28,25 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.buttonOpenClients = new System.Windows.Forms.Button();
             this.buttonOpenAgents = new System.Windows.Forms.Button();
             this.buttonOpenRealEstates = new System.Windows.Forms.Button();
             this.buttonOpenDemands = new System.Windows.Forms.Button();
             this.buttonOpenSupplies = new System.Windows.Forms.Button();
             this.buttonOpenDeals = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // Logo
-            // 
-            this.Logo.Image = global::Esoft_Project.Properties.Resources.thumbnail;
-            this.Logo.Location = new System.Drawing.Point(12, 12);
-            this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(255, 85);
-            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Logo.TabIndex = 0;
-            this.Logo.TabStop = false;
             // 
             // buttonOpenClients
             // 
@@ -96,6 +86,7 @@
             this.buttonOpenSupplies.TabIndex = 5;
             this.buttonOpenSupplies.Text = "Потребности";
             this.buttonOpenSupplies.UseVisualStyleBackColor = true;
+            this.buttonOpenSupplies.Click += new System.EventHandler(this.buttonOpenSupplies_Click);
             // 
             // buttonOpenDeals
             // 
@@ -105,6 +96,16 @@
             this.buttonOpenDeals.TabIndex = 6;
             this.buttonOpenDeals.Text = "Сделки";
             this.buttonOpenDeals.UseVisualStyleBackColor = true;
+            // 
+            // Logo
+            // 
+            this.Logo.Image = global::Esoft_Project.Properties.Resources.thumbnail;
+            this.Logo.Location = new System.Drawing.Point(12, 12);
+            this.Logo.Name = "Logo";
+            this.Logo.Size = new System.Drawing.Size(255, 85);
+            this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.Logo.TabIndex = 0;
+            this.Logo.TabStop = false;
             // 
             // Menu
             // 
