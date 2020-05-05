@@ -42,6 +42,17 @@
             this.labelClient = new System.Windows.Forms.Label();
             this.labelType = new System.Windows.Forms.Label();
             this.listViewDemand_Apartment = new System.Windows.Forms.ListView();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.textBoxMinArea = new System.Windows.Forms.TextBox();
             this.textBoxMaxArea = new System.Windows.Forms.TextBox();
             this.textBoxMinRooms = new System.Windows.Forms.TextBox();
@@ -60,18 +71,6 @@
             this.labelMaxFloors = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.listViewDemand_House = new System.Windows.Forms.ListView();
-            this.listViewDemand_Land = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -81,6 +80,7 @@
             this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.listViewDemand_Land = new System.Windows.Forms.ListView();
             this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -229,11 +229,66 @@
             this.listViewDemand_Apartment.Location = new System.Drawing.Point(9, 205);
             this.listViewDemand_Apartment.MultiSelect = false;
             this.listViewDemand_Apartment.Name = "listViewDemand_Apartment";
-            this.listViewDemand_Apartment.Size = new System.Drawing.Size(912, 66);
+            this.listViewDemand_Apartment.Size = new System.Drawing.Size(912, 207);
             this.listViewDemand_Apartment.TabIndex = 21;
             this.listViewDemand_Apartment.UseCompatibleStateImageBehavior = false;
             this.listViewDemand_Apartment.View = System.Windows.Forms.View.Details;
             this.listViewDemand_Apartment.SelectedIndexChanged += new System.EventHandler(this.listViewDemand_Apartment_SelectedIndexChanged);
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Агент";
+            this.columnHeader1.Width = 55;
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "Клиент";
+            this.columnHeader2.Width = 59;
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Тип";
+            this.columnHeader3.Width = 69;
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Мин. цена";
+            this.columnHeader4.Width = 79;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Макс. цена";
+            this.columnHeader5.Width = 89;
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "Мин. площадь";
+            this.columnHeader6.Width = 100;
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "Макс. площадь";
+            this.columnHeader7.Width = 98;
+            // 
+            // columnHeader8
+            // 
+            this.columnHeader8.Text = "Мин. кол. комнат";
+            this.columnHeader8.Width = 109;
+            // 
+            // columnHeader9
+            // 
+            this.columnHeader9.Text = "Макс. кол. комнат";
+            this.columnHeader9.Width = 113;
+            // 
+            // columnHeader10
+            // 
+            this.columnHeader10.Text = "Мин. этаж";
+            this.columnHeader10.Width = 69;
+            // 
+            // columnHeader11
+            // 
+            this.columnHeader11.Text = "Макс. этаж";
+            this.columnHeader11.Width = 79;
             // 
             // textBoxMinArea
             // 
@@ -392,93 +447,15 @@
             this.listViewDemand_House.FullRowSelect = true;
             this.listViewDemand_House.GridLines = true;
             this.listViewDemand_House.HideSelection = false;
-            this.listViewDemand_House.Location = new System.Drawing.Point(9, 277);
+            this.listViewDemand_House.Location = new System.Drawing.Point(9, 205);
             this.listViewDemand_House.MultiSelect = false;
             this.listViewDemand_House.Name = "listViewDemand_House";
-            this.listViewDemand_House.Size = new System.Drawing.Size(912, 66);
+            this.listViewDemand_House.Size = new System.Drawing.Size(912, 207);
             this.listViewDemand_House.TabIndex = 39;
             this.listViewDemand_House.UseCompatibleStateImageBehavior = false;
             this.listViewDemand_House.View = System.Windows.Forms.View.Details;
             this.listViewDemand_House.Visible = false;
             this.listViewDemand_House.SelectedIndexChanged += new System.EventHandler(this.listViewDemand_House_SelectedIndexChanged);
-            // 
-            // listViewDemand_Land
-            // 
-            this.listViewDemand_Land.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader21,
-            this.columnHeader22,
-            this.columnHeader23,
-            this.columnHeader24,
-            this.columnHeader25,
-            this.columnHeader26,
-            this.columnHeader27});
-            this.listViewDemand_Land.FullRowSelect = true;
-            this.listViewDemand_Land.GridLines = true;
-            this.listViewDemand_Land.HideSelection = false;
-            this.listViewDemand_Land.Location = new System.Drawing.Point(9, 349);
-            this.listViewDemand_Land.MultiSelect = false;
-            this.listViewDemand_Land.Name = "listViewDemand_Land";
-            this.listViewDemand_Land.Size = new System.Drawing.Size(912, 66);
-            this.listViewDemand_Land.TabIndex = 40;
-            this.listViewDemand_Land.UseCompatibleStateImageBehavior = false;
-            this.listViewDemand_Land.View = System.Windows.Forms.View.Details;
-            this.listViewDemand_Land.Visible = false;
-            this.listViewDemand_Land.SelectedIndexChanged += new System.EventHandler(this.listViewDemand_Land_SelectedIndexChanged);
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "Агент";
-            this.columnHeader1.Width = 55;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Клиент";
-            this.columnHeader2.Width = 59;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Тип";
-            this.columnHeader3.Width = 69;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Мин. цена";
-            this.columnHeader4.Width = 79;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Макс. цена";
-            this.columnHeader5.Width = 89;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Мин. площадь";
-            this.columnHeader6.Width = 100;
-            // 
-            // columnHeader7
-            // 
-            this.columnHeader7.Text = "Макс. площадь";
-            this.columnHeader7.Width = 98;
-            // 
-            // columnHeader8
-            // 
-            this.columnHeader8.Text = "Мин. кол. комнат";
-            this.columnHeader8.Width = 109;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Макс. кол. комнат";
-            this.columnHeader9.Width = 113;
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Мин. этаж";
-            this.columnHeader10.Width = 69;
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Макс. этаж";
-            this.columnHeader11.Width = 79;
             // 
             // columnHeader12
             // 
@@ -521,6 +498,29 @@
             // 
             this.columnHeader20.Text = "Макс. кол. этажей";
             this.columnHeader20.Width = 136;
+            // 
+            // listViewDemand_Land
+            // 
+            this.listViewDemand_Land.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader21,
+            this.columnHeader22,
+            this.columnHeader23,
+            this.columnHeader24,
+            this.columnHeader25,
+            this.columnHeader26,
+            this.columnHeader27});
+            this.listViewDemand_Land.FullRowSelect = true;
+            this.listViewDemand_Land.GridLines = true;
+            this.listViewDemand_Land.HideSelection = false;
+            this.listViewDemand_Land.Location = new System.Drawing.Point(9, 205);
+            this.listViewDemand_Land.MultiSelect = false;
+            this.listViewDemand_Land.Name = "listViewDemand_Land";
+            this.listViewDemand_Land.Size = new System.Drawing.Size(912, 207);
+            this.listViewDemand_Land.TabIndex = 40;
+            this.listViewDemand_Land.UseCompatibleStateImageBehavior = false;
+            this.listViewDemand_Land.View = System.Windows.Forms.View.Details;
+            this.listViewDemand_Land.Visible = false;
+            this.listViewDemand_Land.SelectedIndexChanged += new System.EventHandler(this.listViewDemand_Land_SelectedIndexChanged);
             // 
             // columnHeader21
             // 
