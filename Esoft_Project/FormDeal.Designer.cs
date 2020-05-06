@@ -103,60 +103,60 @@
             // labelSupply
             // 
             this.labelSupply.AutoSize = true;
-            this.labelSupply.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSupply.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelSupply.Location = new System.Drawing.Point(14, 74);
             this.labelSupply.Name = "labelSupply";
-            this.labelSupply.Size = new System.Drawing.Size(91, 15);
+            this.labelSupply.Size = new System.Drawing.Size(89, 15);
             this.labelSupply.TabIndex = 6;
             this.labelSupply.Text = "Предложение";
             // 
             // labelDemand
             // 
             this.labelDemand.AutoSize = true;
-            this.labelDemand.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDemand.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelDemand.Location = new System.Drawing.Point(14, 126);
             this.labelDemand.Name = "labelDemand";
-            this.labelDemand.Size = new System.Drawing.Size(86, 15);
+            this.labelDemand.Size = new System.Drawing.Size(84, 15);
             this.labelDemand.TabIndex = 7;
             this.labelDemand.Text = "Потребность";
             // 
             // labelSellerCompanyDeductions
             // 
             this.labelSellerCompanyDeductions.AutoSize = true;
-            this.labelSellerCompanyDeductions.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSellerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelSellerCompanyDeductions.Location = new System.Drawing.Point(14, 194);
             this.labelSellerCompanyDeductions.Name = "labelSellerCompanyDeductions";
-            this.labelSellerCompanyDeductions.Size = new System.Drawing.Size(251, 15);
+            this.labelSellerCompanyDeductions.Size = new System.Drawing.Size(241, 15);
             this.labelSellerCompanyDeductions.TabIndex = 8;
             this.labelSellerCompanyDeductions.Text = "Стоимость услуг для клиента-продавца";
             // 
             // labelAgentSellerDeductions
             // 
             this.labelAgentSellerDeductions.AutoSize = true;
-            this.labelAgentSellerDeductions.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAgentSellerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAgentSellerDeductions.Location = new System.Drawing.Point(14, 236);
             this.labelAgentSellerDeductions.Name = "labelAgentSellerDeductions";
-            this.labelAgentSellerDeductions.Size = new System.Drawing.Size(253, 15);
+            this.labelAgentSellerDeductions.Size = new System.Drawing.Size(246, 15);
             this.labelAgentSellerDeductions.TabIndex = 9;
             this.labelAgentSellerDeductions.Text = "Отчисления риелтору клиента-продавца";
             // 
             // labelCustomerCompanyDeductions
             // 
             this.labelCustomerCompanyDeductions.AutoSize = true;
-            this.labelCustomerCompanyDeductions.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCustomerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCustomerCompanyDeductions.Location = new System.Drawing.Point(14, 305);
             this.labelCustomerCompanyDeductions.Name = "labelCustomerCompanyDeductions";
-            this.labelCustomerCompanyDeductions.Size = new System.Drawing.Size(263, 15);
+            this.labelCustomerCompanyDeductions.Size = new System.Drawing.Size(252, 15);
             this.labelCustomerCompanyDeductions.TabIndex = 10;
             this.labelCustomerCompanyDeductions.Text = "Стоимость услуг для клиента-покупателя";
             // 
             // labelAgentCustomerDeductions
             // 
             this.labelAgentCustomerDeductions.AutoSize = true;
-            this.labelAgentCustomerDeductions.Font = new System.Drawing.Font("Roboto", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAgentCustomerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelAgentCustomerDeductions.Location = new System.Drawing.Point(14, 347);
             this.labelAgentCustomerDeductions.Name = "labelAgentCustomerDeductions";
-            this.labelAgentCustomerDeductions.Size = new System.Drawing.Size(265, 15);
+            this.labelAgentCustomerDeductions.Size = new System.Drawing.Size(257, 15);
             this.labelAgentCustomerDeductions.TabIndex = 11;
             this.labelAgentCustomerDeductions.Text = "Отчисления риелтору клиента-покупателя";
             // 
