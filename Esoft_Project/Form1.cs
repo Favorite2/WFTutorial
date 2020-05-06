@@ -46,5 +46,11 @@ namespace Esoft_Project
             Form formDemand = new FormDemand();
             formDemand.Show();
         }
+
+        private void buttonOpenDeals_Click(object sender, EventArgs e)
+        {
+            Form formDeal = new FormDeal();
+            formDeal.Show();
+        }
     }
 }

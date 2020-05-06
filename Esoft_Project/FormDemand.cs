@@ -211,8 +211,8 @@ namespace Esoft_Project
                     demand.MaxArea = Convert.ToDouble(textBoxMaxArea.Text);
                     demand.MinFloor = Convert.ToInt32(textBoxMinFloor.Text);
                     demand.MaxFloor = Convert.ToInt32(textBoxMaxFloor.Text);
-                    demand.MinRooms = Convert.ToInt32(textBoxMinFloor.Text);
-                    demand.MaxRooms = Convert.ToInt32(textBoxMinFloor.Text);
+                    demand.MinRooms = Convert.ToInt32(textBoxMinRooms.Text);
+                    demand.MaxRooms = Convert.ToInt32(textBoxMaxRooms.Text);
                     Program.wftDb.SaveChanges();
                     ShowDemandSet();
                 }
