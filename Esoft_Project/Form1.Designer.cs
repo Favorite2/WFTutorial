@@ -35,6 +35,7 @@
             this.buttonOpenSupplies = new System.Windows.Forms.Button();
             this.buttonOpenDeals = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.PictureBox();
+            this.labelHello = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -101,18 +102,28 @@
             // Logo
             // 
             this.Logo.Image = global::Esoft_Project.Properties.Resources.thumbnail;
-            this.Logo.Location = new System.Drawing.Point(12, 12);
+            this.Logo.Location = new System.Drawing.Point(12, 28);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(255, 85);
+            this.Logo.Size = new System.Drawing.Size(255, 69);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Logo.TabIndex = 0;
             this.Logo.TabStop = false;
+            // 
+            // labelHello
+            // 
+            this.labelHello.AutoSize = true;
+            this.labelHello.Location = new System.Drawing.Point(12, 7);
+            this.labelHello.Name = "labelHello";
+            this.labelHello.Size = new System.Drawing.Size(44, 13);
+            this.labelHello.TabIndex = 7;
+            this.labelHello.Text = "Привет";
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(279, 445);
+            this.Controls.Add(this.labelHello);
             this.Controls.Add(this.buttonOpenDeals);
             this.Controls.Add(this.buttonOpenSupplies);
             this.Controls.Add(this.buttonOpenDemands);
@@ -126,6 +137,7 @@
             this.Text = "Esoft";
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -138,6 +150,7 @@
         private System.Windows.Forms.Button buttonOpenDemands;
         private System.Windows.Forms.Button buttonOpenSupplies;
         private System.Windows.Forms.Button buttonOpenDeals;
+        private System.Windows.Forms.Label labelHello;
     }
 }
 

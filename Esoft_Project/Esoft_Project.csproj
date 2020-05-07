@@ -79,6 +79,12 @@
     <Compile Include="FormAgent.Designer.cs">
       <DependentUpon>FormAgent.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormAuthorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAuthorization.Designer.cs">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,11 +138,17 @@
     <Compile Include="SupplySet.cs">
       <DependentUpon>ModelTutorial.tt</DependentUpon>
     </Compile>
+    <Compile Include="Users.cs">
+      <DependentUpon>ModelTutorial.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormAgent.resx">
       <DependentUpon>FormAgent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAuthorization.resx">
+      <DependentUpon>FormAuthorization.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormClient.resx">
       <DependentUpon>FormClient.cs</DependentUpon>
