@@ -125,7 +125,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(601, 428);
+            this.buttonAdd.Location = new System.Drawing.Point(648, 428);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(87, 36);
             this.buttonAdd.TabIndex = 12;
@@ -135,7 +135,7 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(695, 428);
+            this.buttonEdit.Location = new System.Drawing.Point(741, 428);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(87, 36);
             this.buttonEdit.TabIndex = 13;
@@ -145,7 +145,7 @@
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(789, 428);
+            this.buttonDel.Location = new System.Drawing.Point(834, 428);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(87, 36);
             this.buttonDel.TabIndex = 14;
